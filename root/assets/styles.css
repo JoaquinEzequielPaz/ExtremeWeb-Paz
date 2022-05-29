@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Poppins&family=Work+Sans:wght@100&display=swap');
+
+body {
+    background-color: black;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header img {
+    WIDTH: 50%;
+    HEIGHT: 350px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    background-color: grey;
+    justify-content: space-around;
+}
+
+.menu {
+    width: 100%;
+}
+
+
+li {
+    color: white;
+    padding: 10px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    height: 20px;
+    display: inline-block;
+    width: 100%;
+}
+
+.slider {
+    background-color: grey;
+	width: 60%;
+	margin: auto;
+	overflow: hidden;
+    border-bottom-style: solid;
+    border-bottom-width: 50px;
+    border-top-width: 50px;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-color: black;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+    right: 100%;
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+.textoPresentacion {
+    display: flex;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    height: 20px;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.profes img {
+    width: 250px;
+}
+
+.frame {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.footer a{
+color: white;
+    text-decoration: none;
+    height: 20px;
+    display: inline-block;
+    width: 100%;
+}
+
+.pie {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    background-color: grey;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.textoPresentacion {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+    height: 20px;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  
+  
